@@ -1,0 +1,102 @@
+html{
+margin: 0;
+padding: 0;
+}
+body{
+    background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,100,0,1.5), rgba(0,0,150,1));
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,50,150,1.5), rgba(0,100,200,1));
+    color: #FFF7D9;
+    padding: 30px;
+    margin: 0;
+    font-family:'Montserrat', sans-serif;
+}
+
+.content-box{
+    background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.5));
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.5));
+    padding: 10px;
+    margin: 10px;
+    border-radius:10px;
+}
+
+#logo{
+    font-size: 50px;
+    padding: 5px;
+}
+#logo img{
+    width: 150px;
+    float: left;
+    position: relative;
+    top: -20px;
+}
+
+#welcome{
+    text-align: center;
+}
+
+#NavLinks {
+    text-align: center; 
+}
+
+#NavLinks a{
+    color: #FFF7D9;;
+    text-decoration:none;
+}
+
+#NavLinks li{
+    display: inline;
+    padding: 0px 10px 0px 10px; 
+    background: linear-gradient(bottom, rgba(255,255,255,1), rgba(50,150,255,.7));
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(38, 167, 218, 0.788));
+}
+
+#NavLinks li:hover{
+    background: linear-gradient(bottom, rgba(255,255,255,1), rgba(100,255,255,1));
+    background: -webkit-linear-gradient(bottom, rgba(50,150,150,1), rgba(100,230,255,1));
+
+}
+hr{
+    border: 1px solid  white;
+}
+#preview img{
+width: 240px;
+float: left;
+border: 1px solid #FFF7D9 
+}
+#preview a{
+    color: rgb(255, 145, 0);
+    text-decoration: none;
+}
+#preview p{
+padding: 80px;
+position: relative;
+right: -50px;
+}
+
+dl {
+    display: flex;
+}
+
+dt{
+    width: 150px;
+    position: relative;
+    right: -70px; 
+}
+
+dd{
+    width: 350px;
+    position: relative;
+    bottom: -30px;
+    left: -70px
+}
+
+dd img{
+    height: 250px;
+    width: 250px;
+    border: 1px solid #FFF7D9 
+}
+
+
+
+
+
